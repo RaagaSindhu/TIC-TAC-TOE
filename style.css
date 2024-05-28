@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    
+}
+.heading{
+    font-size: 5vh;
+    text-align: center;
+    margin: 20px;
+}
+.box{
+    height: 17vh;
+    width: 17vh;
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    color: black;
+    font-size: 6vh;
+}
+.game{
+    
+    height:60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 70px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: none;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+}
